@@ -1,10 +1,12 @@
 import com.fasterxml.jackson.annotation.JsonProperty
 
 class Employee {
-    @JsonProperty("FIRST_NAME")
+    @JsonProperty
     var firstName: String = ""
-    @JsonProperty("LAST_NAME")
+
+    @JsonProperty
     var lastName: String = ""
-    @JsonProperty("SALARY")
-    var salaty: String = ""
+
+    @JsonProperty
+    var salary: String = ""
 }

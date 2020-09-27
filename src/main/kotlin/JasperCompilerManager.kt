@@ -18,7 +18,7 @@ fun main() {
     val employee = Employee().apply {
         firstName = "User_Name"
         lastName = "User_Last_Name"
-        salaty = "107000$"
+        salary = "107000$"
     }
     parameters["title"] = "TEST"
 
